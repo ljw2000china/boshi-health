@@ -1,0 +1,17 @@
+# Xcode / Swift
+.DS_Store
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.xcscmblueprint
+
+# 本地签名 / 个人信息(绝不提交)
+*.mobileprovision
+*.p12
+*.cer
+
+# 模拟器与调试产物
+*.pem
+Pods/
+Carthage/

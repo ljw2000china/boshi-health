@@ -1,0 +1,95 @@
+name: Pulse
+options:
+  bundleIdPrefix: com.boshi
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+schemes:
+  PulseWatch:
+    build:
+      targets:
+        PulseWatch: all
+  PulsePhone:
+    build:
+      targets:
+        PulsePhone: all
+    test:
+      targets:
+        - PulsePhoneTests
+
+targets:
+  PulseWatch:
+    platform: watchOS
+    type: application
+    deploymentTarget: "11.0"
+    sources:
+      - path: WatchPulse
+      - path: Shared
+    dependencies:
+      - target: PulseWidget
+        embed: true
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.boshi.watchkitapp
+        INFOPLIST_FILE: WatchPulse/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: WatchPulse/WatchPulse.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+  PulseWidget:
+    platform: watchOS
+    type: app-extension
+    deploymentTarget: "11.0"
+    sources:
+      - path: PulseWidget
+      - path: Shared/Workout/TrainingDaySnapshot.swift
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.boshi.watchkitapp.widget
+        INFOPLIST_FILE: PulseWidget/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: PulseWidget/PulseWidget.entitlements
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        SKIP_INSTALL: YES
+        APPLICATION_EXTENSION_API_ONLY: YES
+        TARGETED_DEVICE_FAMILY: "4"
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+  PulsePhone:
+    platform: iOS
+    type: application
+    deploymentTarget: "18.0"
+    sources:
+      - path: PhonePulse
+      - path: Shared
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.boshi.app
+        INFOPLIST_FILE: PhonePulse/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        CODE_SIGN_ENTITLEMENTS: PhonePulse/PhonePulse.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        SWIFT_VERSION: "5.0"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        MARKETING_VERSION: 0.1.0
+        CURRENT_PROJECT_VERSION: 1
+  PulsePhoneTests:
+    platform: iOS
+    type: bundle.unit-test
+    deploymentTarget: "18.0"
+    sources:
+      - path: PulsePhoneTests
+    dependencies:
+      - target: PulsePhone
+    settings:
+      base:
+        SWIFT_VERSION: "5.0"
+        GENERATE_INFOPLIST_FILE: YES

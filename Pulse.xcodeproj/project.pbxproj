@@ -1,0 +1,1163 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006B51D06F66D98606CB0795 /* SleepScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF120CD9EF2823C7A9F95B1 /* SleepScore.swift */; };
+		0127BAD03EEBCD442BB3A878 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4900E6810B6827093B1AEAD /* AppTheme.swift */; };
+		0179C0AC7C24C9BB63FA3BB9 /* PulseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CBBD03FFDD3CA4BE747B9 /* PulseStore.swift */; };
+		02A132D6A6F7EF4C1B588EB4 /* SwipeActionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5A005FE108CDEF240DD53 /* SwipeActionsRow.swift */; };
+		03994618995B84EAB47D321C /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C7BFA6F2AC61D896A5EA6 /* OverviewView.swift */; };
+		05766B107CA0435B9B26E0B1 /* TrainingHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0649892F5B3255CA4BC3BAF /* TrainingHomeView.swift */; };
+		0972AEA889A9F74B65B81D0E /* HKSyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC07C02DA2770C8D18D57 /* HKSyncEngine.swift */; };
+		0AF161C8EA4E619749227897 /* RestDayBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D2EED6C2B32621ED84937C /* RestDayBannerView.swift */; };
+		0C32D7B864B5D73517320B39 /* StressScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED56C1B011D5155EAB592B /* StressScore.swift */; };
+		14BDBA6424483A5D7B374EF9 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C23C7BFA6F2AC61D896A5EA6 /* OverviewView.swift */; };
+		1697DDB9C334AE4D716CCFC2 /* HKSyncEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADDC07C02DA2770C8D18D57 /* HKSyncEngine.swift */; };
+		191589F64B90327F4CB1009A /* StrengthWorkoutWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38BB8FC5BE638E8581BAC4 /* StrengthWorkoutWriter.swift */; };
+		193553560B078F306655B0D2 /* SleepScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BBF2A8CF3C11CAA83B6C10 /* SleepScoreTests.swift */; };
+		1D1DEB4FAE1127B9AD801E2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A68BB88CC3990394D2599A1 /* ContentView.swift */; };
+		1E9A3671938A7473C72DBAB4 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AE1B42FAE074E76CB86B /* TrendsView.swift */; };
+		20C2B690CC63FC2B04B04F92 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271FE820F1400FE9B3AB314 /* RestTimerView.swift */; };
+		21CF97E88E4A75402BCF92C6 /* WorkoutWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB4B54E1E195421978FBA4 /* WorkoutWriter.swift */; };
+		26FD4B916FB7F0C53D55D704 /* WorkoutDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DC2BBBD3C0DD5638FC760 /* WorkoutDetector.swift */; };
+		2724542892F08057723052B7 /* RecoveryScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074E63F79ED520CE0E9342F /* RecoveryScore.swift */; };
+		27A7494F68519DCAC8A43998 /* WCSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC74F261D0D2049C3899B6 /* WCSyncService.swift */; };
+		2BD1D0BB585E1C261FE69D3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BFA7922FCA2F18F785575A /* ContentView.swift */; };
+		2C2683507FC4C9B25206503B /* RestDayBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88D2EED6C2B32621ED84937C /* RestDayBannerView.swift */; };
+		2CFD8E58F30953C8F005C6E6 /* ExerciseLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC62B77806CCA64A5C17405 /* ExerciseLibrary.swift */; };
+		2D8C8A4CFA665F66694A22B9 /* RestRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB599B8BC3E0686E87FA653 /* RestRules.swift */; };
+		2DB05A9CEDC39126B9AB4089 /* SyncDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8550C10556310007C549B4 /* SyncDTOs.swift */; };
+		3097FB96A05FBDEDA4730844 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4900E6810B6827093B1AEAD /* AppTheme.swift */; };
+		370595A04D75A9E2434755D7 /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E7C534685485DCAA27AE0 /* CheckinView.swift */; };
+		39CC2378397A99FDCFB77EE6 /* SleepWriteback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBD0EBA86E154306340537 /* SleepWriteback.swift */; };
+		3CB7B8B96928C7BE2573AF0D /* ExerciseProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E0191C89F31B22AAED7D5 /* ExerciseProgressView.swift */; };
+		3CC67C0BAF6B410E45AABBFB /* TrainingSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10831A654B7392A5F8965A0 /* TrainingSessionView.swift */; };
+		3F5B0EA45571DEAFB033E80E /* TrendCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C956FBF9860D235DDF657CF /* TrendCharts.swift */; };
+		4043BB75C887D2417FA90A35 /* DataPipeline+Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2FAF64B9781043E174B00 /* DataPipeline+Scoring.swift */; };
+		40E3DC907482D7111596CBA2 /* BaselineMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D91BE3B8C8C6D1494468B48 /* BaselineMath.swift */; };
+		4163F0E1828BE513C41F18E7 /* ScoringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72EE4233D1B1387E8EE5D8D8 /* ScoringTests.swift */; };
+		44514B2AF8B689A9DA793C76 /* SleepWindowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFC7154EB18365529A68375 /* SleepWindowBuilder.swift */; };
+		44AAC28CBD08A27726AD5A1C /* SleepInference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27AAE2E72B984AAFE29E8B /* SleepInference.swift */; };
+		45E72AA81BEC0BBCA0DD54DA /* DailyMetricDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC51F1E6E182CF24CF61939 /* DailyMetricDTO.swift */; };
+		47724BF01753D47E2C18802E /* DebugSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC1A3CC82E32EA6ED0EB17 /* DebugSample.swift */; };
+		49B393BD76A1009B9EC30BD5 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C13303742D61514D97418CF /* DesignSystem.swift */; };
+		4CFA302CDCB534287E2F3070 /* NumericPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72D42D2DEA8BABA1BF9F98 /* NumericPadView.swift */; };
+		55DC3A46ED014B700013CE1D /* SleepWindowBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFFC7154EB18365529A68375 /* SleepWindowBuilder.swift */; };
+		573856C44FC43FCF5E3B718E /* ACWRScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BFD83E8A82CF5B133210A /* ACWRScore.swift */; };
+		577F21810C6E8537A28335B1 /* RestRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB599B8BC3E0686E87FA653 /* RestRules.swift */; };
+		58DC4431116BC7B0E1DC46DD /* DataPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6EA19453B277EFBD534D8 /* DataPipeline.swift */; };
+		59C7FECD7177427B7015F2DB /* TrainingSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA24A7F5BF0CE1060614AF4 /* TrainingSummary.swift */; };
+		59FE039C71A430DB7904AEAA /* NumericPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A72D42D2DEA8BABA1BF9F98 /* NumericPadView.swift */; };
+		5B47DA5674863AFA3644CEBF /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7514CB4DB041D764812087 /* WorkoutSession.swift */; };
+		5DF6116FA125931DBA656E17 /* TrainingDaySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EAAE12D519EAB77580FF8 /* TrainingDaySnapshot.swift */; };
+		5FA6D37C63C2AB8373D250C4 /* WeeklySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E7A34F5278A37C07520F8 /* WeeklySummaryView.swift */; };
+		6423093B1EA13646406E9C24 /* SleepDebt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED313AD4668B7D7F1597EFB /* SleepDebt.swift */; };
+		6566CA5CFDA4262067069220 /* ReadinessScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC87EECF3E757A4CAE47D878 /* ReadinessScore.swift */; };
+		65D7AAAD4C3524F45A267E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A5D5AF290E8AE43146308FA /* Assets.xcassets */; };
+		664F9575543A0AC36CEC3052 /* ExerciseLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC62B77806CCA64A5C17405 /* ExerciseLibrary.swift */; };
+		673817376AFC64C991B21B7F /* SleepInferenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B4B136465BD0A252BD6477 /* SleepInferenceTests.swift */; };
+		676B2BE21B30404389178285 /* L2Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C1517CA5322F7DBEF3DDE7 /* L2Background.swift */; };
+		701EA30A85FD797A892237A9 /* TrainingDaySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EAAE12D519EAB77580FF8 /* TrainingDaySnapshot.swift */; };
+		712BC8B66A54D9FBA2DC9CFB /* TrendCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C956FBF9860D235DDF657CF /* TrendCharts.swift */; };
+		71A48D8E8F50B1908C585277 /* ExerciseProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E0191C89F31B22AAED7D5 /* ExerciseProgressView.swift */; };
+		750F6D24916E460B70CC54B4 /* PulseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027E9A8B5A4D02CA82C12F2 /* PulseLog.swift */; };
+		761CD2018377A3DE0747D2FD /* SleepDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7CD33D12F396740D861FB /* SleepDiagnostics.swift */; };
+		765A4D1501A2BEA30C32618D /* StrengthWorkoutWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C38BB8FC5BE638E8581BAC4 /* StrengthWorkoutWriter.swift */; };
+		78DADE8A07DB49F413CF9DC8 /* SleepScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF120CD9EF2823C7A9F95B1 /* SleepScore.swift */; };
+		795933D8DD294D96FEB36DE5 /* CheckinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D3438388078128273D19E /* CheckinService.swift */; };
+		7CD3B72D303A6C1E1EB699DA /* DebugDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC3A53CE95115F2011AFFFE /* DebugDataView.swift */; };
+		7D4B607BAD3EAC1D1635538B /* PulseWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = AA7985208FEB4FC2224BE44C /* PulseWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7E040CE9921825A5A7EB479F /* TrainingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262DD6230BA52762118C980 /* TrainingService.swift */; };
+		8079C2DB60379E1C659EC5C1 /* DataPipeline+Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F2FAF64B9781043E174B00 /* DataPipeline+Scoring.swift */; };
+		83625549DE31B33C6E3856CD /* BodyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563EA9CCF520B12F52C6B297 /* BodyMapView.swift */; };
+		84C0A23D647BBD0EFFFB0BB7 /* SleepDebt.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED313AD4668B7D7F1597EFB /* SleepDebt.swift */; };
+		85F6D0A7F087337E39F6BBD4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54D78E44C2334238FAE2C3F /* SettingsView.swift */; };
+		877CB4C80EBE7B59A4130841 /* DebugSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EC1A3CC82E32EA6ED0EB17 /* DebugSample.swift */; };
+		87D231267807BAB512B1DC3B /* SampleSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4EECC92EA3E6A83153338 /* SampleSource.swift */; };
+		8BC2F5A315C7C1CA567AE73F /* HKTypeIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8298B168CF7FCB68201E3 /* HKTypeIdentifiers.swift */; };
+		8C4E47AE1D24542978ADF4AD /* WorkoutHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96A9D693988FC87186FA38 /* WorkoutHistoryView.swift */; };
+		8CDF3A9F628AF0BC6FFD9C1D /* ExercisePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B22767C900A22E4FC77E3E8 /* ExercisePickerView.swift */; };
+		8F7129F58D153AE554887E1E /* HKTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6938A414553899C83305090 /* HKTypes.swift */; };
+		95D96C5FEED5AE60D0E426F2 /* StrainScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F0AF774ED1FBE8C517786B /* StrainScore.swift */; };
+		95F290F2B3F434BF3133B8D4 /* MorningReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB7779DFF745DDF51BAC22 /* MorningReport.swift */; };
+		97C1AED13E8AFF4B5393D51D /* TrainingSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10831A654B7392A5F8965A0 /* TrainingSessionView.swift */; };
+		A004F2E2C855BEB790976E9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D06375D84DD2E8F29E32BA3 /* Assets.xcassets */; };
+		A3464AB69E6545CB6DCD9C6B /* SleepInference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B27AAE2E72B984AAFE29E8B /* SleepInference.swift */; };
+		A4DE57F193C8290D4B031B40 /* SwipeActionsRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FF5A005FE108CDEF240DD53 /* SwipeActionsRow.swift */; };
+		A8872A9181E36C810949D04E /* PulseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE29C8D57E3FE3FCB80BBC8 /* PulseModels.swift */; };
+		AABBE6D4F30796319BBF08C4 /* BodyMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563EA9CCF520B12F52C6B297 /* BodyMapView.swift */; };
+		AADFEAF3A1CA49BB796F1A86 /* ExerciseIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542984CA8C8FB689486422A /* ExerciseIllustration.swift */; };
+		ABAEEA2C441F472CA30105C8 /* PulseLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2027E9A8B5A4D02CA82C12F2 /* PulseLog.swift */; };
+		AE2ED0585BC479790ACA6E54 /* DataPipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7B6EA19453B277EFBD534D8 /* DataPipeline.swift */; };
+		B12560382C094C10C4911FBB /* PulseTrainingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7FA005A05D26AD12694FF9 /* PulseTrainingWidget.swift */; };
+		B3576D941F07EDB465F785FB /* CheckinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB4D3438388078128273D19E /* CheckinService.swift */; };
+		B365692D93C235E82186B0DD /* HKTypeIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D8298B168CF7FCB68201E3 /* HKTypeIdentifiers.swift */; };
+		B391CE87B6C4B7887F29D8D0 /* TrainingDaySnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4EAAE12D519EAB77580FF8 /* TrainingDaySnapshot.swift */; };
+		B887A9809CAF8FA7F9A7A6F5 /* WorkoutWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8AB4B54E1E195421978FBA4 /* WorkoutWriter.swift */; };
+		B9093E4FE4D57A275F4C1AC0 /* SleepDebugSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC76CFAD877D366776932E /* SleepDebugSection.swift */; };
+		BAE0B811606FBB24EE628133 /* HKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C827B2412F12D229941ABB8 /* HKService.swift */; };
+		BB37A59641374E69066E56A0 /* ReadinessScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC87EECF3E757A4CAE47D878 /* ReadinessScore.swift */; };
+		BB673069E63FD40B255A188F /* SetLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83684202762E68AEDD14ADA /* SetLogger.swift */; };
+		BCD903981B45EEA71B2D00F0 /* WorkoutControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B06F8CF0744E4F657CEE47 /* WorkoutControls.swift */; };
+		BD33AFE2E3364E19222CEF53 /* PulseModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE29C8D57E3FE3FCB80BBC8 /* PulseModels.swift */; };
+		BF49673015CF294CF13C3F46 /* DebugDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92A81EA4499550B616413FD9 /* DebugDataView.swift */; };
+		C0A6D26DEDEFD2690A383A28 /* WorkoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03B25DB3B3EA68ADB2D034A /* WorkoutTests.swift */; };
+		C15E0E84B553F16ED1840DA1 /* PulseStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6CBBD03FFDD3CA4BE747B9 /* PulseStore.swift */; };
+		C43BC2FF68B1FABC60B5A6CD /* MorningReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EB7779DFF745DDF51BAC22 /* MorningReport.swift */; };
+		C626DDE5C1ECE863A5F57785 /* WatchPulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03E04C906EB570B672E3F70 /* WatchPulseApp.swift */; };
+		C696BDE38B1C19D395DA19AB /* HKService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C827B2412F12D229941ABB8 /* HKService.swift */; };
+		C6F298456BBB8F5D1C83ADC9 /* SleepWindowBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBEC4C1B9AEC7EC0F86E096 /* SleepWindowBuilderTests.swift */; };
+		C71858CED3389EDD7B61BD64 /* HKTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6938A414553899C83305090 /* HKTypes.swift */; };
+		CA9A6B063973AC5CE1FF7F28 /* TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E6848108BC750C6741BFAB /* TrainingTests.swift */; };
+		CB2B6DAF55B989D53DCBC6D4 /* SleepDebugSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CC76CFAD877D366776932E /* SleepDebugSection.swift */; };
+		CBA7614F7630F9D241E30640 /* ExerciseIllustration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F542984CA8C8FB689486422A /* ExerciseIllustration.swift */; };
+		CD7711E5E3F07A04C429C291 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C13303742D61514D97418CF /* DesignSystem.swift */; };
+		CDDBED7B39DEDFB6121CD5B3 /* RestTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2271FE820F1400FE9B3AB314 /* RestTimerView.swift */; };
+		D3B1BD750C09F9537B367A93 /* StrainScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F0AF774ED1FBE8C517786B /* StrainScore.swift */; };
+		D83F95264AD9C83048AC4624 /* WeeklySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 595E7A34F5278A37C07520F8 /* WeeklySummaryView.swift */; };
+		D9F8E9DAC369867283E514D5 /* SleepDiagnostics.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE7CD33D12F396740D861FB /* SleepDiagnostics.swift */; };
+		DA1675BC4F7F847E9A732923 /* ACWRScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7BFD83E8A82CF5B133210A /* ACWRScore.swift */; };
+		DAA6B735D9852888CE4E77E0 /* PulseLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA89A9F156D3175D6C925437 /* PulseLogView.swift */; };
+		DCA42BC17F40445E19493D4E /* PhonePulseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DC098586AA428E0415F6AFF /* PhonePulseApp.swift */; };
+		DD7F0307AEFC492467BC6DA6 /* WCSyncService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54EC74F261D0D2049C3899B6 /* WCSyncService.swift */; };
+		DF64D82B87208EF7088480F1 /* TrainingHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0649892F5B3255CA4BC3BAF /* TrainingHomeView.swift */; };
+		E19040E6ED4E535921EB0FC1 /* SleepWriteback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBD0EBA86E154306340537 /* SleepWriteback.swift */; };
+		E227117C19175C7A9FC64CAF /* BaselineMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D91BE3B8C8C6D1494468B48 /* BaselineMath.swift */; };
+		E28B333EFF7FC63ACBDDA80A /* TrainingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262DD6230BA52762118C980 /* TrainingService.swift */; };
+		E76C6482D0CAE056B5213CB1 /* DailyMetricDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FC51F1E6E182CF24CF61939 /* DailyMetricDTO.swift */; };
+		E8A9F0AB19481434171C5942 /* TrendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7680AE1B42FAE074E76CB86B /* TrendsView.swift */; };
+		EEBB74935C0C88E59AC3D498 /* SampleSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B4EECC92EA3E6A83153338 /* SampleSource.swift */; };
+		F062853717D89D042047720B /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7514CB4DB041D764812087 /* WorkoutSession.swift */; };
+		F2FC7A305811B2565BFF9C02 /* StressScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EED56C1B011D5155EAB592B /* StressScore.swift */; };
+		F5FA8326C10690754F7DA576 /* WorkoutDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28DC2BBBD3C0DD5638FC760 /* WorkoutDetector.swift */; };
+		F78F3E99A3F6ACB1BA0AEBDE /* SetLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83684202762E68AEDD14ADA /* SetLogger.swift */; };
+		F8A76F5BAAA712EAB0DDBD0B /* SyncDTOs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8550C10556310007C549B4 /* SyncDTOs.swift */; };
+		F926154B015E1C01997833B8 /* CheckinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6E7C534685485DCAA27AE0 /* CheckinView.swift */; };
+		FBCA9A7E633AF487B471E4C7 /* WorkoutControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B06F8CF0744E4F657CEE47 /* WorkoutControls.swift */; };
+		FC39979F42A57A9AECFFF263 /* TrainingSummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA24A7F5BF0CE1060614AF4 /* TrainingSummary.swift */; };
+		FF06EB2D6DCA7C3C505C5C6A /* RecoveryScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B074E63F79ED520CE0E9342F /* RecoveryScore.swift */; };
+		FFD694C97A6255C49B1A08D2 /* ExercisePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B22767C900A22E4FC77E3E8 /* ExercisePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4AD85097C3DAC807013AABE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FEC84833EC6BF77563A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 350F53C6FB511791EF6B2C22;
+			remoteInfo = PulseWidget;
+		};
+		B016A98771DB6C93ACBA3CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84FEC84833EC6BF77563A3F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2A1FA6D5E2FA15CDAE72E79;
+			remoteInfo = PulsePhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		589D7CAEC1BAEBB67BC54BE1 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7D4B607BAD3EAC1D1635538B /* PulseWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		096E0191C89F31B22AAED7D5 /* ExerciseProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseProgressView.swift; sourceTree = "<group>"; };
+		0A5D5AF290E8AE43146308FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6F5E05E78D170994CD2FE5 /* PulseWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PulseWidget.entitlements; sourceTree = "<group>"; };
+		0C13303742D61514D97418CF /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
+		0D91BE3B8C8C6D1494468B48 /* BaselineMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaselineMath.swift; sourceTree = "<group>"; };
+		15B06F8CF0744E4F657CEE47 /* WorkoutControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutControls.swift; sourceTree = "<group>"; };
+		1A4EAAE12D519EAB77580FF8 /* TrainingDaySnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingDaySnapshot.swift; sourceTree = "<group>"; };
+		1FF5A005FE108CDEF240DD53 /* SwipeActionsRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsRow.swift; sourceTree = "<group>"; };
+		2027E9A8B5A4D02CA82C12F2 /* PulseLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLog.swift; sourceTree = "<group>"; };
+		2271FE820F1400FE9B3AB314 /* RestTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestTimerView.swift; sourceTree = "<group>"; };
+		2C956FBF9860D235DDF657CF /* TrendCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendCharts.swift; sourceTree = "<group>"; };
+		2CB599B8BC3E0686E87FA653 /* RestRules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestRules.swift; sourceTree = "<group>"; };
+		2DC3A53CE95115F2011AFFFE /* DebugDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDataView.swift; sourceTree = "<group>"; };
+		32EB7779DFF745DDF51BAC22 /* MorningReport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorningReport.swift; sourceTree = "<group>"; };
+		37E6848108BC750C6741BFAB /* TrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingTests.swift; sourceTree = "<group>"; };
+		37F0AF774ED1FBE8C517786B /* StrainScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainScore.swift; sourceTree = "<group>"; };
+		428EC8314FAD20D65DF4D18E /* WatchPulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WatchPulse.entitlements; sourceTree = "<group>"; };
+		44DBD0EBA86E154306340537 /* SleepWriteback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWriteback.swift; sourceTree = "<group>"; };
+		47F2FAF64B9781043E174B00 /* DataPipeline+Scoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DataPipeline+Scoring.swift"; sourceTree = "<group>"; };
+		4B27AAE2E72B984AAFE29E8B /* SleepInference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInference.swift; sourceTree = "<group>"; };
+		54EC74F261D0D2049C3899B6 /* WCSyncService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WCSyncService.swift; sourceTree = "<group>"; };
+		563EA9CCF520B12F52C6B297 /* BodyMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BodyMapView.swift; sourceTree = "<group>"; };
+		595E7A34F5278A37C07520F8 /* WeeklySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklySummaryView.swift; sourceTree = "<group>"; };
+		5ADDC07C02DA2770C8D18D57 /* HKSyncEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKSyncEngine.swift; sourceTree = "<group>"; };
+		5C38BB8FC5BE638E8581BAC4 /* StrengthWorkoutWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrengthWorkoutWriter.swift; sourceTree = "<group>"; };
+		5EED56C1B011D5155EAB592B /* StressScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StressScore.swift; sourceTree = "<group>"; };
+		63D8298B168CF7FCB68201E3 /* HKTypeIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTypeIdentifiers.swift; sourceTree = "<group>"; };
+		658BC99EE552C7E68CBA5EB8 /* PulseWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PulseWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC62B77806CCA64A5C17405 /* ExerciseLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLibrary.swift; sourceTree = "<group>"; };
+		6D6E7C534685485DCAA27AE0 /* CheckinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinView.swift; sourceTree = "<group>"; };
+		6FC51F1E6E182CF24CF61939 /* DailyMetricDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMetricDTO.swift; sourceTree = "<group>"; };
+		72EE4233D1B1387E8EE5D8D8 /* ScoringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoringTests.swift; sourceTree = "<group>"; };
+		7680AE1B42FAE074E76CB86B /* TrendsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendsView.swift; sourceTree = "<group>"; };
+		7815A8398AD4E34260EBFDBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7A68BB88CC3990394D2599A1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7B22767C900A22E4FC77E3E8 /* ExercisePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExercisePickerView.swift; sourceTree = "<group>"; };
+		88D2EED6C2B32621ED84937C /* RestDayBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestDayBannerView.swift; sourceTree = "<group>"; };
+		8A72D42D2DEA8BABA1BF9F98 /* NumericPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericPadView.swift; sourceTree = "<group>"; };
+		8D06375D84DD2E8F29E32BA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EC41F641B47AFB2D5E7DD6C /* PhonePulse.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhonePulse.entitlements; sourceTree = "<group>"; };
+		8F9C16D0E960236DE4BB889F /* PulsePhone.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PulsePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92A81EA4499550B616413FD9 /* DebugDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugDataView.swift; sourceTree = "<group>"; };
+		95BFA7922FCA2F18F785575A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		95CC76CFAD877D366776932E /* SleepDebugSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDebugSection.swift; sourceTree = "<group>"; };
+		9C827B2412F12D229941ABB8 /* HKService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKService.swift; sourceTree = "<group>"; };
+		9D8550C10556310007C549B4 /* SyncDTOs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncDTOs.swift; sourceTree = "<group>"; };
+		9DC098586AA428E0415F6AFF /* PhonePulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonePulseApp.swift; sourceTree = "<group>"; };
+		A0649892F5B3255CA4BC3BAF /* TrainingHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingHomeView.swift; sourceTree = "<group>"; };
+		A10831A654B7392A5F8965A0 /* TrainingSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSessionView.swift; sourceTree = "<group>"; };
+		A4900E6810B6827093B1AEAD /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		A6938A414553899C83305090 /* HKTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKTypes.swift; sourceTree = "<group>"; };
+		AA7514CB4DB041D764812087 /* WorkoutSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		AA7985208FEB4FC2224BE44C /* PulseWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PulseWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACF120CD9EF2823C7A9F95B1 /* SleepScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScore.swift; sourceTree = "<group>"; };
+		B03E04C906EB570B672E3F70 /* WatchPulseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPulseApp.swift; sourceTree = "<group>"; };
+		B074E63F79ED520CE0E9342F /* RecoveryScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryScore.swift; sourceTree = "<group>"; };
+		B54D78E44C2334238FAE2C3F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B6C1517CA5322F7DBEF3DDE7 /* L2Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L2Background.swift; sourceTree = "<group>"; };
+		B9B4EECC92EA3E6A83153338 /* SampleSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSource.swift; sourceTree = "<group>"; };
+		BB4D3438388078128273D19E /* CheckinService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinService.swift; sourceTree = "<group>"; };
+		BC87EECF3E757A4CAE47D878 /* ReadinessScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadinessScore.swift; sourceTree = "<group>"; };
+		BE7FA005A05D26AD12694FF9 /* PulseTrainingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseTrainingWidget.swift; sourceTree = "<group>"; };
+		BE96A9D693988FC87186FA38 /* WorkoutHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHistoryView.swift; sourceTree = "<group>"; };
+		BED313AD4668B7D7F1597EFB /* SleepDebt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDebt.swift; sourceTree = "<group>"; };
+		C1528CC46A3BF7513F6093D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C23C7BFA6F2AC61D896A5EA6 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		C28DC2BBBD3C0DD5638FC760 /* WorkoutDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutDetector.swift; sourceTree = "<group>"; };
+		C2BBF2A8CF3C11CAA83B6C10 /* SleepScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepScoreTests.swift; sourceTree = "<group>"; };
+		C4EC1A3CC82E32EA6ED0EB17 /* DebugSample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSample.swift; sourceTree = "<group>"; };
+		CDBEC4C1B9AEC7EC0F86E096 /* SleepWindowBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWindowBuilderTests.swift; sourceTree = "<group>"; };
+		D03B25DB3B3EA68ADB2D034A /* WorkoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTests.swift; sourceTree = "<group>"; };
+		D3B4B136465BD0A252BD6477 /* SleepInferenceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepInferenceTests.swift; sourceTree = "<group>"; };
+		D58495F3159EA15A52CF9AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D83684202762E68AEDD14ADA /* SetLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLogger.swift; sourceTree = "<group>"; };
+		DAE29C8D57E3FE3FCB80BBC8 /* PulseModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseModels.swift; sourceTree = "<group>"; };
+		DB8001D281D42E2BAABA1C02 /* PulsePhoneTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PulsePhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E262DD6230BA52762118C980 /* TrainingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingService.swift; sourceTree = "<group>"; };
+		E7B6EA19453B277EFBD534D8 /* DataPipeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPipeline.swift; sourceTree = "<group>"; };
+		E8AB4B54E1E195421978FBA4 /* WorkoutWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutWriter.swift; sourceTree = "<group>"; };
+		EA89A9F156D3175D6C925437 /* PulseLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseLogView.swift; sourceTree = "<group>"; };
+		ED7BFD83E8A82CF5B133210A /* ACWRScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACWRScore.swift; sourceTree = "<group>"; };
+		EFA24A7F5BF0CE1060614AF4 /* TrainingSummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainingSummary.swift; sourceTree = "<group>"; };
+		F542984CA8C8FB689486422A /* ExerciseIllustration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseIllustration.swift; sourceTree = "<group>"; };
+		FB6CBBD03FFDD3CA4BE747B9 /* PulseStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseStore.swift; sourceTree = "<group>"; };
+		FFE7CD33D12F396740D861FB /* SleepDiagnostics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDiagnostics.swift; sourceTree = "<group>"; };
+		FFFC7154EB18365529A68375 /* SleepWindowBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepWindowBuilder.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1FEE830988994786371D8E45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F9C16D0E960236DE4BB889F /* PulsePhone.app */,
+				DB8001D281D42E2BAABA1C02 /* PulsePhoneTests.xctest */,
+				658BC99EE552C7E68CBA5EB8 /* PulseWatch.app */,
+				AA7985208FEB4FC2224BE44C /* PulseWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2108C08CE2AC7739E4D19577 /* HK */ = {
+			isa = PBXGroup;
+			children = (
+				9C827B2412F12D229941ABB8 /* HKService.swift */,
+				5ADDC07C02DA2770C8D18D57 /* HKSyncEngine.swift */,
+				63D8298B168CF7FCB68201E3 /* HKTypeIdentifiers.swift */,
+				A6938A414553899C83305090 /* HKTypes.swift */,
+				2027E9A8B5A4D02CA82C12F2 /* PulseLog.swift */,
+				FFE7CD33D12F396740D861FB /* SleepDiagnostics.swift */,
+				44DBD0EBA86E154306340537 /* SleepWriteback.swift */,
+			);
+			path = HK;
+			sourceTree = "<group>";
+		};
+		262287470D7963023481A185 /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+				4B27AAE2E72B984AAFE29E8B /* SleepInference.swift */,
+				FFFC7154EB18365529A68375 /* SleepWindowBuilder.swift */,
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		2B5291374D07A2F31BAFD975 /* PhonePulse */ = {
+			isa = PBXGroup;
+			children = (
+				8D06375D84DD2E8F29E32BA3 /* Assets.xcassets */,
+				7A68BB88CC3990394D2599A1 /* ContentView.swift */,
+				92A81EA4499550B616413FD9 /* DebugDataView.swift */,
+				D58495F3159EA15A52CF9AB9 /* Info.plist */,
+				8EC41F641B47AFB2D5E7DD6C /* PhonePulse.entitlements */,
+				9DC098586AA428E0415F6AFF /* PhonePulseApp.swift */,
+				EA89A9F156D3175D6C925437 /* PulseLogView.swift */,
+				B54D78E44C2334238FAE2C3F /* SettingsView.swift */,
+				BE96A9D693988FC87186FA38 /* WorkoutHistoryView.swift */,
+			);
+			path = PhonePulse;
+			sourceTree = "<group>";
+		};
+		3FA5197BD52EC79073660F2B /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				6AC62B77806CCA64A5C17405 /* ExerciseLibrary.swift */,
+				2CB599B8BC3E0686E87FA653 /* RestRules.swift */,
+				D83684202762E68AEDD14ADA /* SetLogger.swift */,
+				5C38BB8FC5BE638E8581BAC4 /* StrengthWorkoutWriter.swift */,
+				1A4EAAE12D519EAB77580FF8 /* TrainingDaySnapshot.swift */,
+				E262DD6230BA52762118C980 /* TrainingService.swift */,
+				EFA24A7F5BF0CE1060614AF4 /* TrainingSummary.swift */,
+				C28DC2BBBD3C0DD5638FC760 /* WorkoutDetector.swift */,
+				AA7514CB4DB041D764812087 /* WorkoutSession.swift */,
+				E8AB4B54E1E195421978FBA4 /* WorkoutWriter.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		40BB77E34D244F3416B09358 /* Checkin */ = {
+			isa = PBXGroup;
+			children = (
+				BB4D3438388078128273D19E /* CheckinService.swift */,
+			);
+			path = Checkin;
+			sourceTree = "<group>";
+		};
+		423B7970A2919BB6CBD066D2 /* Pipeline */ = {
+			isa = PBXGroup;
+			children = (
+				E7B6EA19453B277EFBD534D8 /* DataPipeline.swift */,
+				47F2FAF64B9781043E174B00 /* DataPipeline+Scoring.swift */,
+			);
+			path = Pipeline;
+			sourceTree = "<group>";
+		};
+		52E5FFA17CBD55B28E178D2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4EC1A3CC82E32EA6ED0EB17 /* DebugSample.swift */,
+				B9B4EECC92EA3E6A83153338 /* SampleSource.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		65B1B99BAF987DB056F9E5A2 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				DAE29C8D57E3FE3FCB80BBC8 /* PulseModels.swift */,
+				FB6CBBD03FFDD3CA4BE747B9 /* PulseStore.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		67C5A4C8478E84418ED3F982 /* Notify */ = {
+			isa = PBXGroup;
+			children = (
+				32EB7779DFF745DDF51BAC22 /* MorningReport.swift */,
+			);
+			path = Notify;
+			sourceTree = "<group>";
+		};
+		73399E6A7465893DBECDE1F2 /* PulseWidget */ = {
+			isa = PBXGroup;
+			children = (
+				7815A8398AD4E34260EBFDBF /* Info.plist */,
+				BE7FA005A05D26AD12694FF9 /* PulseTrainingWidget.swift */,
+				0A6F5E05E78D170994CD2FE5 /* PulseWidget.entitlements */,
+			);
+			path = PulseWidget;
+			sourceTree = "<group>";
+		};
+		7A87E3B4AE2E59047EFB8F61 = {
+			isa = PBXGroup;
+			children = (
+				2B5291374D07A2F31BAFD975 /* PhonePulse */,
+				B9BFC7E1C801E1D211530945 /* PulsePhoneTests */,
+				73399E6A7465893DBECDE1F2 /* PulseWidget */,
+				C73988AEBE5644AB18939654 /* Shared */,
+				7C2C11299425F07B3EEA0FAF /* WatchPulse */,
+				1FEE830988994786371D8E45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C2C11299425F07B3EEA0FAF /* WatchPulse */ = {
+			isa = PBXGroup;
+			children = (
+				0A5D5AF290E8AE43146308FA /* Assets.xcassets */,
+				95BFA7922FCA2F18F785575A /* ContentView.swift */,
+				2DC3A53CE95115F2011AFFFE /* DebugDataView.swift */,
+				C1528CC46A3BF7513F6093D4 /* Info.plist */,
+				B6C1517CA5322F7DBEF3DDE7 /* L2Background.swift */,
+				428EC8314FAD20D65DF4D18E /* WatchPulse.entitlements */,
+				B03E04C906EB570B672E3F70 /* WatchPulseApp.swift */,
+			);
+			path = WatchPulse;
+			sourceTree = "<group>";
+		};
+		9072663F8778BC78B9F39CF1 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FE7988A10F83F57D843618B0 /* Workout */,
+				A4900E6810B6827093B1AEAD /* AppTheme.swift */,
+				6D6E7C534685485DCAA27AE0 /* CheckinView.swift */,
+				0C13303742D61514D97418CF /* DesignSystem.swift */,
+				C23C7BFA6F2AC61D896A5EA6 /* OverviewView.swift */,
+				95CC76CFAD877D366776932E /* SleepDebugSection.swift */,
+				1FF5A005FE108CDEF240DD53 /* SwipeActionsRow.swift */,
+				2C956FBF9860D235DDF657CF /* TrendCharts.swift */,
+				7680AE1B42FAE074E76CB86B /* TrendsView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AB25C82FF641777FCC14ED32 /* Sync */ = {
+			isa = PBXGroup;
+			children = (
+				6FC51F1E6E182CF24CF61939 /* DailyMetricDTO.swift */,
+				9D8550C10556310007C549B4 /* SyncDTOs.swift */,
+				54EC74F261D0D2049C3899B6 /* WCSyncService.swift */,
+			);
+			path = Sync;
+			sourceTree = "<group>";
+		};
+		B9BFC7E1C801E1D211530945 /* PulsePhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				72EE4233D1B1387E8EE5D8D8 /* ScoringTests.swift */,
+				D3B4B136465BD0A252BD6477 /* SleepInferenceTests.swift */,
+				C2BBF2A8CF3C11CAA83B6C10 /* SleepScoreTests.swift */,
+				CDBEC4C1B9AEC7EC0F86E096 /* SleepWindowBuilderTests.swift */,
+				37E6848108BC750C6741BFAB /* TrainingTests.swift */,
+				D03B25DB3B3EA68ADB2D034A /* WorkoutTests.swift */,
+			);
+			path = PulsePhoneTests;
+			sourceTree = "<group>";
+		};
+		C73988AEBE5644AB18939654 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				40BB77E34D244F3416B09358 /* Checkin */,
+				2108C08CE2AC7739E4D19577 /* HK */,
+				52E5FFA17CBD55B28E178D2A /* Model */,
+				67C5A4C8478E84418ED3F982 /* Notify */,
+				423B7970A2919BB6CBD066D2 /* Pipeline */,
+				F3851CA9C29728818B75283C /* Scoring */,
+				262287470D7963023481A185 /* Sleep */,
+				65B1B99BAF987DB056F9E5A2 /* Store */,
+				AB25C82FF641777FCC14ED32 /* Sync */,
+				9072663F8778BC78B9F39CF1 /* UI */,
+				3FA5197BD52EC79073660F2B /* Workout */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F3851CA9C29728818B75283C /* Scoring */ = {
+			isa = PBXGroup;
+			children = (
+				ED7BFD83E8A82CF5B133210A /* ACWRScore.swift */,
+				0D91BE3B8C8C6D1494468B48 /* BaselineMath.swift */,
+				BC87EECF3E757A4CAE47D878 /* ReadinessScore.swift */,
+				B074E63F79ED520CE0E9342F /* RecoveryScore.swift */,
+				BED313AD4668B7D7F1597EFB /* SleepDebt.swift */,
+				ACF120CD9EF2823C7A9F95B1 /* SleepScore.swift */,
+				37F0AF774ED1FBE8C517786B /* StrainScore.swift */,
+				5EED56C1B011D5155EAB592B /* StressScore.swift */,
+			);
+			path = Scoring;
+			sourceTree = "<group>";
+		};
+		FE7988A10F83F57D843618B0 /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+				563EA9CCF520B12F52C6B297 /* BodyMapView.swift */,
+				F542984CA8C8FB689486422A /* ExerciseIllustration.swift */,
+				7B22767C900A22E4FC77E3E8 /* ExercisePickerView.swift */,
+				096E0191C89F31B22AAED7D5 /* ExerciseProgressView.swift */,
+				8A72D42D2DEA8BABA1BF9F98 /* NumericPadView.swift */,
+				88D2EED6C2B32621ED84937C /* RestDayBannerView.swift */,
+				2271FE820F1400FE9B3AB314 /* RestTimerView.swift */,
+				A0649892F5B3255CA4BC3BAF /* TrainingHomeView.swift */,
+				A10831A654B7392A5F8965A0 /* TrainingSessionView.swift */,
+				595E7A34F5278A37C07520F8 /* WeeklySummaryView.swift */,
+				15B06F8CF0744E4F657CEE47 /* WorkoutControls.swift */,
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FD59D79150B4CD00EEDF298 /* PulseWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD9785E53760A353FCF7DDA5 /* Build configuration list for PBXNativeTarget "PulseWatch" */;
+			buildPhases = (
+				88D6AF757036F12496010781 /* Sources */,
+				9198C73ABCBE61673E09F30C /* Resources */,
+				589D7CAEC1BAEBB67BC54BE1 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DACD0FE91A9DEDB623AD0879 /* PBXTargetDependency */,
+			);
+			name = PulseWatch;
+			packageProductDependencies = (
+			);
+			productName = PulseWatch;
+			productReference = 658BC99EE552C7E68CBA5EB8 /* PulseWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		350F53C6FB511791EF6B2C22 /* PulseWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98F56FE33CF778C4492E20F4 /* Build configuration list for PBXNativeTarget "PulseWidget" */;
+			buildPhases = (
+				AEAA66C390A49D89DD1C4D2E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulseWidget;
+			packageProductDependencies = (
+			);
+			productName = PulseWidget;
+			productReference = AA7985208FEB4FC2224BE44C /* PulseWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B2A1FA6D5E2FA15CDAE72E79 /* PulsePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F9ADB51CC2B922A60FBA764 /* Build configuration list for PBXNativeTarget "PulsePhone" */;
+			buildPhases = (
+				ED5165B5416CBD2DB208F69F /* Sources */,
+				76D80E379C15901B938F2585 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PulsePhone;
+			packageProductDependencies = (
+			);
+			productName = PulsePhone;
+			productReference = 8F9C16D0E960236DE4BB889F /* PulsePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5604D3BCF983180C81FC88C /* PulsePhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94EE5C2325EB718F31503ED7 /* Build configuration list for PBXNativeTarget "PulsePhoneTests" */;
+			buildPhases = (
+				BED6985363421141723B8CE1 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B74D2EF7655D44CA178513B /* PBXTargetDependency */,
+			);
+			name = PulsePhoneTests;
+			packageProductDependencies = (
+			);
+			productName = PulsePhoneTests;
+			productReference = DB8001D281D42E2BAABA1C02 /* PulsePhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FEC84833EC6BF77563A3F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					1FD59D79150B4CD00EEDF298 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					350F53C6FB511791EF6B2C22 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B2A1FA6D5E2FA15CDAE72E79 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AEADBFB0BC46A63478A94A51 /* Build configuration list for PBXProject "Pulse" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 7A87E3B4AE2E59047EFB8F61;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1FEE830988994786371D8E45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FD59D79150B4CD00EEDF298 /* PulseWatch */,
+				350F53C6FB511791EF6B2C22 /* PulseWidget */,
+				B2A1FA6D5E2FA15CDAE72E79 /* PulsePhone */,
+				C5604D3BCF983180C81FC88C /* PulsePhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76D80E379C15901B938F2585 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A004F2E2C855BEB790976E9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9198C73ABCBE61673E09F30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D7AAAD4C3524F45A267E6C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88D6AF757036F12496010781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1675BC4F7F847E9A732923 /* ACWRScore.swift in Sources */,
+				0127BAD03EEBCD442BB3A878 /* AppTheme.swift in Sources */,
+				E227117C19175C7A9FC64CAF /* BaselineMath.swift in Sources */,
+				AABBE6D4F30796319BBF08C4 /* BodyMapView.swift in Sources */,
+				795933D8DD294D96FEB36DE5 /* CheckinService.swift in Sources */,
+				F926154B015E1C01997833B8 /* CheckinView.swift in Sources */,
+				2BD1D0BB585E1C261FE69D3A /* ContentView.swift in Sources */,
+				45E72AA81BEC0BBCA0DD54DA /* DailyMetricDTO.swift in Sources */,
+				4043BB75C887D2417FA90A35 /* DataPipeline+Scoring.swift in Sources */,
+				58DC4431116BC7B0E1DC46DD /* DataPipeline.swift in Sources */,
+				7CD3B72D303A6C1E1EB699DA /* DebugDataView.swift in Sources */,
+				877CB4C80EBE7B59A4130841 /* DebugSample.swift in Sources */,
+				49B393BD76A1009B9EC30BD5 /* DesignSystem.swift in Sources */,
+				CBA7614F7630F9D241E30640 /* ExerciseIllustration.swift in Sources */,
+				664F9575543A0AC36CEC3052 /* ExerciseLibrary.swift in Sources */,
+				8CDF3A9F628AF0BC6FFD9C1D /* ExercisePickerView.swift in Sources */,
+				3CB7B8B96928C7BE2573AF0D /* ExerciseProgressView.swift in Sources */,
+				BAE0B811606FBB24EE628133 /* HKService.swift in Sources */,
+				0972AEA889A9F74B65B81D0E /* HKSyncEngine.swift in Sources */,
+				8BC2F5A315C7C1CA567AE73F /* HKTypeIdentifiers.swift in Sources */,
+				8F7129F58D153AE554887E1E /* HKTypes.swift in Sources */,
+				676B2BE21B30404389178285 /* L2Background.swift in Sources */,
+				95F290F2B3F434BF3133B8D4 /* MorningReport.swift in Sources */,
+				4CFA302CDCB534287E2F3070 /* NumericPadView.swift in Sources */,
+				14BDBA6424483A5D7B374EF9 /* OverviewView.swift in Sources */,
+				ABAEEA2C441F472CA30105C8 /* PulseLog.swift in Sources */,
+				BD33AFE2E3364E19222CEF53 /* PulseModels.swift in Sources */,
+				0179C0AC7C24C9BB63FA3BB9 /* PulseStore.swift in Sources */,
+				BB37A59641374E69066E56A0 /* ReadinessScore.swift in Sources */,
+				FF06EB2D6DCA7C3C505C5C6A /* RecoveryScore.swift in Sources */,
+				0AF161C8EA4E619749227897 /* RestDayBannerView.swift in Sources */,
+				577F21810C6E8537A28335B1 /* RestRules.swift in Sources */,
+				20C2B690CC63FC2B04B04F92 /* RestTimerView.swift in Sources */,
+				87D231267807BAB512B1DC3B /* SampleSource.swift in Sources */,
+				F78F3E99A3F6ACB1BA0AEBDE /* SetLogger.swift in Sources */,
+				84C0A23D647BBD0EFFFB0BB7 /* SleepDebt.swift in Sources */,
+				B9093E4FE4D57A275F4C1AC0 /* SleepDebugSection.swift in Sources */,
+				761CD2018377A3DE0747D2FD /* SleepDiagnostics.swift in Sources */,
+				44AAC28CBD08A27726AD5A1C /* SleepInference.swift in Sources */,
+				006B51D06F66D98606CB0795 /* SleepScore.swift in Sources */,
+				44514B2AF8B689A9DA793C76 /* SleepWindowBuilder.swift in Sources */,
+				E19040E6ED4E535921EB0FC1 /* SleepWriteback.swift in Sources */,
+				D3B1BD750C09F9537B367A93 /* StrainScore.swift in Sources */,
+				765A4D1501A2BEA30C32618D /* StrengthWorkoutWriter.swift in Sources */,
+				0C32D7B864B5D73517320B39 /* StressScore.swift in Sources */,
+				A4DE57F193C8290D4B031B40 /* SwipeActionsRow.swift in Sources */,
+				2DB05A9CEDC39126B9AB4089 /* SyncDTOs.swift in Sources */,
+				701EA30A85FD797A892237A9 /* TrainingDaySnapshot.swift in Sources */,
+				DF64D82B87208EF7088480F1 /* TrainingHomeView.swift in Sources */,
+				7E040CE9921825A5A7EB479F /* TrainingService.swift in Sources */,
+				3CC67C0BAF6B410E45AABBFB /* TrainingSessionView.swift in Sources */,
+				FC39979F42A57A9AECFFF263 /* TrainingSummary.swift in Sources */,
+				3F5B0EA45571DEAFB033E80E /* TrendCharts.swift in Sources */,
+				1E9A3671938A7473C72DBAB4 /* TrendsView.swift in Sources */,
+				DD7F0307AEFC492467BC6DA6 /* WCSyncService.swift in Sources */,
+				C626DDE5C1ECE863A5F57785 /* WatchPulseApp.swift in Sources */,
+				D83F95264AD9C83048AC4624 /* WeeklySummaryView.swift in Sources */,
+				BCD903981B45EEA71B2D00F0 /* WorkoutControls.swift in Sources */,
+				26FD4B916FB7F0C53D55D704 /* WorkoutDetector.swift in Sources */,
+				5B47DA5674863AFA3644CEBF /* WorkoutSession.swift in Sources */,
+				B887A9809CAF8FA7F9A7A6F5 /* WorkoutWriter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEAA66C390A49D89DD1C4D2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B12560382C094C10C4911FBB /* PulseTrainingWidget.swift in Sources */,
+				B391CE87B6C4B7887F29D8D0 /* TrainingDaySnapshot.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BED6985363421141723B8CE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4163F0E1828BE513C41F18E7 /* ScoringTests.swift in Sources */,
+				673817376AFC64C991B21B7F /* SleepInferenceTests.swift in Sources */,
+				193553560B078F306655B0D2 /* SleepScoreTests.swift in Sources */,
+				C6F298456BBB8F5D1C83ADC9 /* SleepWindowBuilderTests.swift in Sources */,
+				CA9A6B063973AC5CE1FF7F28 /* TrainingTests.swift in Sources */,
+				C0A6D26DEDEFD2690A383A28 /* WorkoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5165B5416CBD2DB208F69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				573856C44FC43FCF5E3B718E /* ACWRScore.swift in Sources */,
+				3097FB96A05FBDEDA4730844 /* AppTheme.swift in Sources */,
+				40E3DC907482D7111596CBA2 /* BaselineMath.swift in Sources */,
+				83625549DE31B33C6E3856CD /* BodyMapView.swift in Sources */,
+				B3576D941F07EDB465F785FB /* CheckinService.swift in Sources */,
+				370595A04D75A9E2434755D7 /* CheckinView.swift in Sources */,
+				1D1DEB4FAE1127B9AD801E2E /* ContentView.swift in Sources */,
+				E76C6482D0CAE056B5213CB1 /* DailyMetricDTO.swift in Sources */,
+				8079C2DB60379E1C659EC5C1 /* DataPipeline+Scoring.swift in Sources */,
+				AE2ED0585BC479790ACA6E54 /* DataPipeline.swift in Sources */,
+				BF49673015CF294CF13C3F46 /* DebugDataView.swift in Sources */,
+				47724BF01753D47E2C18802E /* DebugSample.swift in Sources */,
+				CD7711E5E3F07A04C429C291 /* DesignSystem.swift in Sources */,
+				AADFEAF3A1CA49BB796F1A86 /* ExerciseIllustration.swift in Sources */,
+				2CFD8E58F30953C8F005C6E6 /* ExerciseLibrary.swift in Sources */,
+				FFD694C97A6255C49B1A08D2 /* ExercisePickerView.swift in Sources */,
+				71A48D8E8F50B1908C585277 /* ExerciseProgressView.swift in Sources */,
+				C696BDE38B1C19D395DA19AB /* HKService.swift in Sources */,
+				1697DDB9C334AE4D716CCFC2 /* HKSyncEngine.swift in Sources */,
+				B365692D93C235E82186B0DD /* HKTypeIdentifiers.swift in Sources */,
+				C71858CED3389EDD7B61BD64 /* HKTypes.swift in Sources */,
+				C43BC2FF68B1FABC60B5A6CD /* MorningReport.swift in Sources */,
+				59FE039C71A430DB7904AEAA /* NumericPadView.swift in Sources */,
+				03994618995B84EAB47D321C /* OverviewView.swift in Sources */,
+				DCA42BC17F40445E19493D4E /* PhonePulseApp.swift in Sources */,
+				750F6D24916E460B70CC54B4 /* PulseLog.swift in Sources */,
+				DAA6B735D9852888CE4E77E0 /* PulseLogView.swift in Sources */,
+				A8872A9181E36C810949D04E /* PulseModels.swift in Sources */,
+				C15E0E84B553F16ED1840DA1 /* PulseStore.swift in Sources */,
+				6566CA5CFDA4262067069220 /* ReadinessScore.swift in Sources */,
+				2724542892F08057723052B7 /* RecoveryScore.swift in Sources */,
+				2C2683507FC4C9B25206503B /* RestDayBannerView.swift in Sources */,
+				2D8C8A4CFA665F66694A22B9 /* RestRules.swift in Sources */,
+				CDDBED7B39DEDFB6121CD5B3 /* RestTimerView.swift in Sources */,
+				EEBB74935C0C88E59AC3D498 /* SampleSource.swift in Sources */,
+				BB673069E63FD40B255A188F /* SetLogger.swift in Sources */,
+				85F6D0A7F087337E39F6BBD4 /* SettingsView.swift in Sources */,
+				6423093B1EA13646406E9C24 /* SleepDebt.swift in Sources */,
+				CB2B6DAF55B989D53DCBC6D4 /* SleepDebugSection.swift in Sources */,
+				D9F8E9DAC369867283E514D5 /* SleepDiagnostics.swift in Sources */,
+				A3464AB69E6545CB6DCD9C6B /* SleepInference.swift in Sources */,
+				78DADE8A07DB49F413CF9DC8 /* SleepScore.swift in Sources */,
+				55DC3A46ED014B700013CE1D /* SleepWindowBuilder.swift in Sources */,
+				39CC2378397A99FDCFB77EE6 /* SleepWriteback.swift in Sources */,
+				95D96C5FEED5AE60D0E426F2 /* StrainScore.swift in Sources */,
+				191589F64B90327F4CB1009A /* StrengthWorkoutWriter.swift in Sources */,
+				F2FC7A305811B2565BFF9C02 /* StressScore.swift in Sources */,
+				02A132D6A6F7EF4C1B588EB4 /* SwipeActionsRow.swift in Sources */,
+				F8A76F5BAAA712EAB0DDBD0B /* SyncDTOs.swift in Sources */,
+				5DF6116FA125931DBA656E17 /* TrainingDaySnapshot.swift in Sources */,
+				05766B107CA0435B9B26E0B1 /* TrainingHomeView.swift in Sources */,
+				E28B333EFF7FC63ACBDDA80A /* TrainingService.swift in Sources */,
+				97C1AED13E8AFF4B5393D51D /* TrainingSessionView.swift in Sources */,
+				59C7FECD7177427B7015F2DB /* TrainingSummary.swift in Sources */,
+				712BC8B66A54D9FBA2DC9CFB /* TrendCharts.swift in Sources */,
+				E8A9F0AB19481434171C5942 /* TrendsView.swift in Sources */,
+				27A7494F68519DCAC8A43998 /* WCSyncService.swift in Sources */,
+				5FA6D37C63C2AB8373D250C4 /* WeeklySummaryView.swift in Sources */,
+				FBCA9A7E633AF487B471E4C7 /* WorkoutControls.swift in Sources */,
+				F5FA8326C10690754F7DA576 /* WorkoutDetector.swift in Sources */,
+				8C4E47AE1D24542978ADF4AD /* WorkoutHistoryView.swift in Sources */,
+				F062853717D89D042047720B /* WorkoutSession.swift in Sources */,
+				21CF97E88E4A75402BCF92C6 /* WorkoutWriter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B74D2EF7655D44CA178513B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2A1FA6D5E2FA15CDAE72E79 /* PulsePhone */;
+			targetProxy = B016A98771DB6C93ACBA3CCA /* PBXContainerItemProxy */;
+		};
+		DACD0FE91A9DEDB623AD0879 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 350F53C6FB511791EF6B2C22 /* PulseWidget */;
+			targetProxy = 4AD85097C3DAC807013AABE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1307602CABC3521F8B1E15B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchPulse/WatchPulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchPulse/Info.plist;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		248D2F1A50C527B6B77451F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseWidget/PulseWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PulseWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.watchkitapp.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		269A40533F3D89F18B6E97B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.PulsePhoneTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsePhone.app/PulsePhone";
+			};
+			name = Release;
+		};
+		2E7048B1817FBF01C246A8F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		322A0D8B347234731373B353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.PulsePhoneTests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PulsePhone.app/PulsePhone";
+			};
+			name = Debug;
+		};
+		337184B8B0106E967943B672 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhonePulse/PhonePulse.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PhonePulse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3A4DD79F9F4C2FD1331A3460 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = WatchPulse/WatchPulse.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchPulse/Info.plist;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		BD807849C1E9DBA9C5810F5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_ENTITLEMENTS = PulseWidget/PulseWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PulseWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.watchkitapp.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		D1356581B30B672364073670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PhonePulse/PhonePulse.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = PhonePulse/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boshi.app;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA223E74BBF86702C72CD3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94EE5C2325EB718F31503ED7 /* Build configuration list for PBXNativeTarget "PulsePhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				322A0D8B347234731373B353 /* Debug */,
+				269A40533F3D89F18B6E97B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		98F56FE33CF778C4492E20F4 /* Build configuration list for PBXNativeTarget "PulseWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				248D2F1A50C527B6B77451F8 /* Debug */,
+				BD807849C1E9DBA9C5810F5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		9F9ADB51CC2B922A60FBA764 /* Build configuration list for PBXNativeTarget "PulsePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1356581B30B672364073670 /* Debug */,
+				337184B8B0106E967943B672 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AEADBFB0BC46A63478A94A51 /* Build configuration list for PBXProject "Pulse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA223E74BBF86702C72CD3A8 /* Debug */,
+				2E7048B1817FBF01C246A8F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		FD9785E53760A353FCF7DDA5 /* Build configuration list for PBXNativeTarget "PulseWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A4DD79F9F4C2FD1331A3460 /* Debug */,
+				1307602CABC3521F8B1E15B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FEC84833EC6BF77563A3F6 /* Project object */;
+}
